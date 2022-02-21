@@ -34,5 +34,14 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butmocks/calendar-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/butmocks/calendar-project/issues"
+  },
+  "homepage": "https://github.com/butmocks/calendar-project#readme",
+  "description": ""
 }
