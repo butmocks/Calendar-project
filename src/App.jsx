@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/header/Header.jsx';
-import Calendar from './components/calendar/Calendar';
+import Calendar from './components/calendar/Calendar.jsx';
 
 import { getWeekStartDate, generateWeekRange } from '../src/utils/dateUtils.js';
 
@@ -10,8 +10,6 @@ class App extends Component {
   state = {
     weekStartDate: new Date(),
   };
-
-
 
   render() {
     const { weekStartDate } = this.state;
