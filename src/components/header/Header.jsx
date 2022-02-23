@@ -6,8 +6,7 @@ import Modal from '../modal/Modal.jsx';
 import { months } from '../../utils/dateUtils.js';
 
 const Header = ({ addEvent, toCurrentDay, toPrevWeek, toNextWeek, weekDates }) => {
-
- let displayedMonth = months[new Date().getMonth()];
+  let displayedMonth = months[new Date().getMonth()];
   // const firstDayWeekOfMonth = moment(weekDates[0]).format('MMMM YYYY');
   // const lastDayWeekOfMonth = moment(weekDates[weekDates.length - 1]).format('MMMM YYYY');
 
@@ -15,9 +14,7 @@ const Header = ({ addEvent, toCurrentDay, toPrevWeek, toNextWeek, weekDates }) =
   //   firstDayWeekOfMonth === (lastDayWeekOfMonth ? firstDayWeekOfMonth
   //     : `${firstDayWeekOfMonth} - ${lastDayWeekOfMonth}`);
 
-
-  
-      return (
+  return (
     <header className="header">
       <button className="button create-event-btn" onClick={addEvent}>
         <i className="fas fa-plus create-event-btn__icon"></i>Create
@@ -34,8 +31,7 @@ const Header = ({ addEvent, toCurrentDay, toPrevWeek, toNextWeek, weekDates }) =
         </button>
         <span className="navigation__displayed-month">{displayedMonth}</span>
       </div>
-    </header>  
-    
+    </header>
   );
 };
 
