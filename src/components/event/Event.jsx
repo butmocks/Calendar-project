@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import Week from '../week/Week'
 import './event.scss';
 
 const Event = ({ height, marginTop, title, time }) => {
