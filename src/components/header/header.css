@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  height: 60px;
+  padding: 0 48px;
+  align-items: center;
+}
+.header__description {
+  display: flex;
+  height: 60px;
+  padding: 0 48px;
+  align-items: center;
+}
+
+.create-event-btn {
+  padding: 0 16px;
+}
+.create-event-btn__icon {
+  margin-right: 8px;
+}
+
+.navigation__today-btn {
+  margin-left: 32px;
+  padding: 0 16px;
+}
+.navigation__nav-icon {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.navigation__displayed-month {
+  margin-left: 10px;
+}/*# sourceMappingURL=header.css.map */

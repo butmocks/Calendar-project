@@ -1,0 +1,16 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+}
+.calendar__header {
+  display: flex;
+  height: 100px;
+  padding-left: 48px;
+}
+.calendar__day {
+  border: 2px black;
+  position: relative;
+  flex: 1;
+  border-left: 1px solid #eee;
+}/*# sourceMappingURL=navigation.css.map */
