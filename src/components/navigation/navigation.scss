@@ -2,11 +2,22 @@
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
+  
+  
+  // width: 50px;
+  // background-color: blue;
+  // border-radius: 100%;
+  // // -webkit-border-radius: 100%;
+  // justify-content: center;
+  // margin-left: auto;
+  // margin-right: auto;
+
 
   &__header {
     display: flex;
     height: 100px;
     padding-left: 48px;
+    // somethig
   }
 
   &__day {
@@ -14,5 +25,11 @@
     position: relative;
     flex: 1;
     border-left: 1px solid #eee;
+    
   }
+}
+.react-calendar__tile--active {
+    background: #006edc;
+    color: white;
+    
 }
